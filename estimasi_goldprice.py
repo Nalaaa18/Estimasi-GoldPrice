@@ -17,5 +17,5 @@ if st.button('Estimasi Harga'):
     predict = model.predict(
         [[Date, Open, High, Low, Chg]]
     )
-    st.write ('Estimasi harga mobil bekas dalam Ponds : ', predict)
-    st.write ('Estimasi harga mobil bekas dalam IDR (Juta) :', predict*17000)
+    st.write ('Estimasi harga Emas dalam Ponds : ', predict)
+    st.write ('Estimasi harga Emas dalam IDR (Juta) :', predict*17000)
